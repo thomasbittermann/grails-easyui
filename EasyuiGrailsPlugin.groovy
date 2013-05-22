@@ -1,6 +1,6 @@
 class EasyuiGrailsPlugin {
 
-    def version = "1.3"
+    def version = "1.3.1"
     def grailsVersion = "2.0 > *"    
     def dependsOn = [:]
 
@@ -9,7 +9,7 @@ class EasyuiGrailsPlugin {
     ]
 
     def title = "JQuery EasyUI from Grails"
-    def author = "Leandro Guindani Gehlen"
+    def author = "Leandro Guindani Gehlen / modified by T. Bittermann"
     def authorEmail = "leandrogehlen@gmail.com"
     def description = "Supplies jQuery EasyUI resources and taglibs. Depends on jQuery EasyUI plugin. See http://www.jeasyui.com/"
     def documentation = "http://grails.org/plugin/easyui"
